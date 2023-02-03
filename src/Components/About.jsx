@@ -10,9 +10,9 @@ const About = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, ut exercitationem qui sunt deleniti, voluptatibus adipisci in eveniet vel officiis architecto consequatur rerum possimus incidunt voluptatem laudantium fugiat voluptatum animi! Quis voluptate impedit ab officia ullam nam, quidem dicta itaque commodi illo voluptatum est, sint, quaerat vitae veritatis quia dignissimos.</p>
+            <p className='text-xl mt-20'>Hi! I'm Sangram Patil. I've 1.6 years of experience on web development technologies like HTML, CSS, Javascript, ReactJS, Redux and Java. Currently I'm seeking a web developer job in a reputed company where I can utilise my skills. I'm interested to work on front end technologies, mainly React. I love to develop and style different user interfaces which can make users life easy</p>
             <br />
-            <p className='text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum nemo cum officiis consequuntur ipsam numquam quas, quasi eos fuga eaque fugiat possimus, alias, at optio vel ut illum aut. Quam ipsum architecto quia incidunt labore? Totam dolores quod in repellat inventore officia est quo aperiam, odio iure, enim id!</p>
+            <p className='text-xl'>My native is Belgaum, Karnataka. I love playing cricket, listening music, cooking. In my free time you can find me going out with friends on adventures, playing different sports, reading</p>
         </div>
     </div>
   )
