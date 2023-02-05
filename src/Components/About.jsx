@@ -17,5 +17,6 @@ const About = () => {
     </div>
   )
 }
-cd
+
+
 export default About
