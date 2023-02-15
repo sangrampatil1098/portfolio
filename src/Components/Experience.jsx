@@ -5,7 +5,6 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
-import java from "../assets/javaa.png";
 const Experience = () => {
   const techs = [
     {
@@ -38,13 +37,6 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
-    {
-      id: 6,
-      src: java,
-      title: "Java",
-      style: "shadow-gray-400",
-    },
-
   ];
 
   return (
