@@ -21,7 +21,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: foodCart,
-      demo: "https://imaginative-youtiao-de7960.netlify.app/",
+      demo: "https://velvety-queijadas-7516b0.netlify.app/",
       code: "https://github.com/sangrampatil1098/food-order-app",
     },
     {
