@@ -5,6 +5,7 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
+import Typescipt from "../assets/Typescipt.png";
 const Experience = () => {
   const techs = [
     {
@@ -35,6 +36,12 @@ const Experience = () => {
       id: 5,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: Typescipt,
+      title: "Typescipt",
       style: "shadow-gray-400",
     },
   ];

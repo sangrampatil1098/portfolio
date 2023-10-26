@@ -1,7 +1,8 @@
 import React from "react";
 import portfolio from "../assets/portfolio.png";
 import ecart from "../assets/ecart.png";
-import blog from "../assets/blog.png";
+
+import foodCart from "../assets/foodCart.png";
 const Portfolio = () => {
   const portfolios = [
     {
@@ -18,8 +19,8 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: blog,
-      demo: "https://imaginative-youtiao-de7960.netlify.app/",
+      src: foodCart,
+      demo: "https://velvety-queijadas-7516b0.netlify.app/",
       code: "https://github.com/sangrampatil1098/blog-website",
     },
   ];
