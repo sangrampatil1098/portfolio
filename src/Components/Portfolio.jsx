@@ -1,7 +1,8 @@
 import React from "react";
 import portfolio from "../assets/portfolio.png";
 import ecart from "../assets/ecart.png";
-
+import investmentCalculator from "../assets/investmentCalculator.png";
+import adminDashboard from "../assets/adminDashboard.png";
 import foodCart from "../assets/foodCart.png";
 const Portfolio = () => {
   const portfolios = [
@@ -20,8 +21,20 @@ const Portfolio = () => {
     {
       id: 3,
       src: foodCart,
-      demo: "https://velvety-queijadas-7516b0.netlify.app/",
-      code: "https://github.com/sangrampatil1098/blog-website",
+      demo: "https://imaginative-youtiao-de7960.netlify.app/",
+      code: "https://github.com/sangrampatil1098/food-order-app",
+    },
+    {
+      id: 4,
+      src: investmentCalculator,
+      demo: "https://tranquil-eclair-1f6531.netlify.app/",
+      code: "https://github.com/sangrampatil1098/investment-calculator",
+    },
+    {
+      id: 5,
+      src: adminDashboard,
+      demo: "https://mellifluous-manatee-3af908.netlify.app/",
+      code: "https://github.com/sangrampatil1098/admin-dashboard",
     },
   ];
   return (
