@@ -6,6 +6,9 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import Typescipt from "../assets/Typescipt.png";
+import bootstrap from "../assets/bootstrap.png";
+import materialUI from "../assets/materialUI.png";
+import stroybook from "../assets/storybook.png";
 const Experience = () => {
   const techs = [
     {
@@ -42,6 +45,24 @@ const Experience = () => {
       id: 5,
       src: Typescipt,
       title: "Typescipt",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: bootstrap,
+      title: "bootstrap",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: materialUI,
+      title: "materialUI",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 5,
+      src: stroybook,
+      title: "stroybook",
       style: "shadow-gray-400",
     },
   ];

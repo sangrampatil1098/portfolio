@@ -20,9 +20,10 @@ const Home = () => {
             {" "}
             <span>
               {" "}
-              ReactJS developer with 1.6 years of experience who is comfortable
-              working with ReactJS, Redux, Javascript, HTML/CSS and responsive
-              web design to deliver exceptional customer experience.
+              ReactJS developer with over 2 years of experience who is
+              comfortable working with ReactJS, Redux, Javascript, Typescipt,
+              HTML/CSS and responsive web design to deliver exceptional customer
+              experience.
             </span>
           </p>
           <div>
