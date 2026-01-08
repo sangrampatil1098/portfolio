@@ -9,6 +9,12 @@ import Typescipt from "../assets/Typescipt.png";
 import bootstrap from "../assets/bootstrap.png";
 import materialUI from "../assets/materialUI.png";
 import stroybook from "../assets/storybook.png";
+import java from "../assets/javaa.png";
+import springboot from "../assets/springboot.png";
+import aws from "../assets/aws.jpg";
+import docker from "../assets/Docker.png";
+import sql from "../assets/sql.jpg";
+
 const Experience = () => {
   const techs = [
     {
@@ -42,27 +48,57 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
     {
-      id: 5,
+      id: 6,
       src: Typescipt,
       title: "Typescipt",
       style: "shadow-gray-400",
     },
     {
-      id: 5,
+      id: 7,
       src: bootstrap,
-      title: "bootstrap",
+      title: "Bootstrap",
       style: "shadow-gray-400",
     },
     {
-      id: 5,
+      id: 8,
       src: materialUI,
-      title: "materialUI",
+      title: "MaterialUI",
       style: "shadow-gray-400",
     },
     {
-      id: 5,
+      id: 9,
       src: stroybook,
-      title: "stroybook",
+      title: "Stroybook",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: java,
+      title: "Java",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: springboot,
+      title: "Spring Boot",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: aws,
+      title: "AWS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: docker,
+      title: "Docker",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: sql,
+      title: "SQL",
       style: "shadow-gray-400",
     },
   ];
@@ -70,7 +106,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

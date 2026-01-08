@@ -1,6 +1,7 @@
 import React from "react";
 
 import HeroImage from "../assets/heroImg.jpeg";
+import HeroImageLatest from "../assets/heroImageLatest.jpeg";
 
 import { Link } from "react-scroll";
 
@@ -9,21 +10,20 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="min-h-20 w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a ReactJS developer
+            I’m a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            {" "}
             <span>
-              {" "}
-              ReactJS developer with over 2 years of experience who is
-              comfortable working with ReactJS, Redux, Javascript, Typescipt,
-              HTML/CSS and responsive web design to deliver exceptional customer
-              experience.
+              I’m a Full Stack Developer with 4.5+ years of experience building
+              scalable web applications using React, Java, and Spring Boot. I
+              focus on writing clean, maintainable code and creating reliable,
+              high-performance solutions. I enjoy solving real-world problems
+              and continuously improving my technical skills.
             </span>
           </p>
           <div>
@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={HeroImage}
+            src={HeroImageLatest}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />

@@ -4,26 +4,27 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full min-h-20 bg-gradient-to-b from-gray-800 to-black text-white"
     >
-      <div className="max-width-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl">
           <span>
-            Hi! I'm Sangram Patil. I was born and brought up in Belgaum,
-            Karnataka. I have completed my engineering in Computer Science from
-            S. G. Balekundri Institute of technology, Belgaum with CGPA 8.3.
-            I've over 2 years of experience on web development technologies like
-            HTML, CSS, Javascript, Typescipt, ReactJS, Redux, Storybook,
-            Bootstrap, MaterialUI etc. Currently I'm seeking a frontend
-            developer job in a reputed company where I can utilise my skills.
-            I'm interested to work on front end technologies, mainly React. I
-            love to develop and style different user interfaces which can make
-            users life easy
+            Hi, I’m a Full Stack Developer with 4.5+ years of professional
+            experience working across frontend and backend technologies,
+            primarily React, Java, and Spring Boot. I enjoy building complete
+            web applications—from crafting intuitive user interfaces to
+            developing robust backend services and APIs. My approach emphasizes
+            clean architecture, code quality, performance, and scalability. Over
+            the years, I’ve collaborated with cross-functional teams,
+            contributed to production-grade applications, and taken ownership of
+            features from design to deployment. I’m passionate about learning
+            new technologies, improving existing systems, and building software
+            that is simple, reliable, and effective.
           </span>
         </p>
         <br />

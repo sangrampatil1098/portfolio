@@ -8,16 +8,17 @@ import SocialLinks from "./Components/SocialLinks";
 
 function App() {
   return (
-    <div className="App">
-        <Navbar/>
+    <div className="min-h-screen w-full overflow-x-hidden">
+      <Navbar />
+      <div className="pt-20">
         <Home />
-        <SocialLinks/>
+        <SocialLinks />
         <About />
-        <Portfolio/>
-        <Experience/>
-        <Contact/>
+        <Portfolio />
+        <Experience />
+        <Contact />
+      </div>
     </div>
   );
 }
-
 export default App;
